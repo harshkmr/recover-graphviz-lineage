@@ -1,6 +1,6 @@
 # Recover Graphviz Model Lineage with Terraform and Hugging Face
 
-This benchmark task tests an agent's ability to use Terraform and Python offline to recover corrupted training sweep metadata, query label counts from a pre-cached Hugging Face dataset, and generate Graphviz lineage visualization artifacts.
+**Recover Graphviz Model Lineage** is a software engineering benchmark task designed to evaluate an agent's capability to run data-recovery operations offline. Given a corrupted training sweep CSV ledger, the repository utilizes a reusable Terraform module (via `terraform_data` to ensure offline stability) and Python to resolve data split frequencies from pre-cached Hugging Face `dair-ai/emotion` dataset files, rebuild tree hierarchies, and compile them into a modern, split-colored Graphviz SVG diagram.
 
 ---
 
