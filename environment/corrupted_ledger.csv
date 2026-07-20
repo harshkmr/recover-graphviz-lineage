@@ -1,0 +1,9 @@
+run_id,parent_run_id,run_type,dataset_split,label_counts,dataset_revision,accuracy
+run-001,,data_prep,train,,,0.85
+run-002,run-001,model_train,train,,,0.88
+run-003,,model_train,validation,,,0.89
+run-004,run-002,hyperparameter_tuning,train,,,0.91
+run-005,,hyperparameter_tuning,validation,,,0.92
+run-006,run-003,model_train,test,,,0.90
+run-007,,model_distillation,train,,,0.93
+run-008,run-007,model_eval,test,,,0.94

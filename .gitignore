@@ -1,0 +1,14 @@
+# Terraform
+.terraform/
+.terraform.lock.hcl
+*.tfstate
+*.tfstate.backup
+
+# Python
+__pycache__/
+.pytest_cache/
+.pytest/
+*.pyc
+
+# Local Outputs
+output/
